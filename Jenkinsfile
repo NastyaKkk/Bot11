@@ -6,6 +6,11 @@ pipeline {
            }
            }
     stages {
+     stage('git') {
+                    steps {
+                        git url: "https://github.com/NastyaKkk/Bot11.git"
+                    }}
+
         stage('Build') {
             steps {
                 sh 'mvn clean package'
