@@ -8,7 +8,7 @@ public final class HelloWorldBot extends Bot {
 //        } else {
         ApiContextInitializer.init();
         Bot.runBot(new HelloWorldBot("1735278046:AAHHChsjXKgegB0a0CjV5hvYUNh0cIi_JYc", "lab_11_bot"));
-        // }
+
     }
 
     private HelloWorldBot(String token, String botName) {
@@ -24,5 +24,6 @@ public final class HelloWorldBot extends Bot {
     @Override
     public void onUpdateReceived(Update update) {
         sendTextMessage(update.getMessage(), "Hello world!");
+        System.out.println("hello");
     }
 }
