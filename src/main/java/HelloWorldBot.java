@@ -7,7 +7,7 @@ public final class HelloWorldBot extends Bot {
 //            System.out.println("You must run bot with 2 args - BotToken and bot UserName");
 //        } else {
         ApiContextInitializer.init();
-        Bot.runBot(new HelloWorldBot("1839914813:AAFMWtWHLxBqgZ1hXmGLPp8oS5tI5bRBZpc", "student25_bot"));
+        Bot.runBot(new HelloWorldBot("1735278046:AAHHChsjXKgegB0a0CjV5hvYUNh0cIi_JYc", "lab_11_bot"));
         // }
     }
 
